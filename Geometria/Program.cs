@@ -5,13 +5,11 @@ Console.Write("Inserisci la base: ");
 bool valid = false;
 while (valid == false)
 {
-    try
-    {
+    try {
         rettangolo.baseRettangolo = int.Parse(Console.ReadLine());
         valid = true;
     }
-    catch
-    {
+    catch {
         Console.Write("Errore. Inserisci di nuovo la base: ");
     }
 }
@@ -19,13 +17,11 @@ Console.Write("Inserisci l'altezza: ");
 valid = false;
 while (valid == false)
 {
-    try
-    {
+    try {
         rettangolo.altezzaRettangolo = int.Parse(Console.ReadLine());
         valid = true;
     }
-    catch
-    {
+    catch {
         Console.Write("Errore. Inserisci di nuovo l'altezza: ");
     }
 }
