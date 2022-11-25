@@ -5,6 +5,8 @@ VisualStudioVersion = 25.0.1704.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geometria", "Geometria\Geometria.csproj", "{8E56F77B-A6F2-4F4A-815E-051A7BABC08B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bonus", "Bonus\Bonus.csproj", "{7283A999-6C49-4EDA-8145-2D887C171DCB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{8E56F77B-A6F2-4F4A-815E-051A7BABC08B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8E56F77B-A6F2-4F4A-815E-051A7BABC08B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8E56F77B-A6F2-4F4A-815E-051A7BABC08B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7283A999-6C49-4EDA-8145-2D887C171DCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7283A999-6C49-4EDA-8145-2D887C171DCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7283A999-6C49-4EDA-8145-2D887C171DCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7283A999-6C49-4EDA-8145-2D887C171DCB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

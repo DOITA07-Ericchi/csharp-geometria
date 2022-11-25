@@ -4,14 +4,18 @@ namespace Geometria {
         public int baseRettangolo;
         public int altezzaRettangolo;
 
-        public int calcolaPerimetro(int rBase, int rAltezza) {
-            return ((rBase * 2) + (rAltezza * 2));
+        public int calcolaPerimetro() {
+            return ((baseRettangolo * 2) + (altezzaRettangolo * 2));
         }
-        public int calcolaArea(int rBase, int rAltezza) {
-            return (rBase * rAltezza);
+        public int calcolaArea() {
+            return (baseRettangolo * altezzaRettangolo);
         }
-        public string disegna(int rBase, int rAltezza) {
-            string k = ""
+        public string stampaRettangolo() {
+            int area = calcolaArea();
+            int perimetro = calcolaPerimetro();
+            string output = $"Area: {area}\tPerimetro: {perimetro}";
+            Console.WriteLine(output);
+            return output;
         }
     }
 }
