@@ -3,7 +3,7 @@
 Rettangolo rettangolo = new Rettangolo();
 Console.Write("Inserisci la base: ");
 bool valid = false;
-while (valid == false){
+while (valid == false) {
     try {
         rettangolo.baseRettangolo = int.Parse(Console.ReadLine());
         valid = true;
