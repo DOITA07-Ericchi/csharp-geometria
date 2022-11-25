@@ -13,7 +13,7 @@ namespace Geometria {
         public string stampaRettangolo() {
             int area = calcolaArea();
             int perimetro = calcolaPerimetro();
-            string output = $"Area: {area}\tPerimetro: {perimetro}";
+            string output = $"Base: {baseRettangolo} | Altezza: {altezzaRettangolo} | Area: {area} | Perimetro: {perimetro}";
             Console.WriteLine(output);
             return output;
         }
